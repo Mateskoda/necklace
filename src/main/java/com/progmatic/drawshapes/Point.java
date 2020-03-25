@@ -18,8 +18,6 @@ public class Point {
     }
 
     public Point getPointAt(double angle, double distance){
-        double x2 = x + Math.sin(Math.toRadians(angle))*distance;
-        double y2 = y - Math.cos(Math.toRadians(angle))*distance;
-        return new Point(x2, y2);
+        return null;
     }
 }
